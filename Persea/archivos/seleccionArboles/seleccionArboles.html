@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>seleccionArboles</title>
+    <script type="module" src="./controladorSeleccionArboles.js" defer></script>
+</head>
+<body>
+
+    <header>
+        <button type="button" onclick="history.back()">&#x2190</button><br><br>
+        <h1>Selección de Árboles</h1>
+    </header>
+    
+    <section>
+        <form>
+            <label for="seleccionVariedades">Tipo de aguacate</label>
+            <select id="seleccionVariedades" name="tipoAguacate">
+                <option value="Hass">Hass</option>
+                <option value="Papelillo">Papelillo</option>
+                <option value="Criollo">Criollo</option>
+            </select><br><br>
+            
+            
+            <label for="preparacionColinos">Preparación de colinos</label>
+            <input type="checkbox" id="preparacionColinos" name="preparacionColinos">
+            <br><br>
+            
+            <label for="excavacionHoyos">Excavación de hoyos</label>
+            <input type="checkbox" id="excavacionHoyos" name="excavacionHoyos">
+            <br><br>
+            
+            <label for="plantacion">Plantación</label>
+            <input type="checkbox" id="plantacion" name="plantacion">
+            <br><br>
+            
+
+            <button type="button" id="guardar" name="guardar">Guardar</button><br><br> 
+        </form>
+    </section>
+    
+</body>
+</html>

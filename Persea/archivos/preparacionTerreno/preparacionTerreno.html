@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>preparacionTerreno</title>
+    <script type="module" src="./controladorPreparacionTerreno.js" defer></script>
+<body>
+    <header>
+        <button type="button" onclick="history.back()">&#x2190</button><br><br>
+        <h1>Preparación del Terreno</h1>        
+    </header>
+    
+    <section>
+        <form>
+            <label for="limpiezaTerreno">Limpieza del Terreno</label>
+            <input type="checkbox" id="limpiezaTerreno" name="limpiezaTerreno">
+            <br><br>
+    
+            <label for="analisisSuelo">Análisis del Suelo</label>
+            <input type="checkbox" id="analisisSuelo" name="analisisSuelo">
+            <br><br>
+    
+            <label for="correccionSuelo">Corrección del Suelo</label>
+            <input type="checkbox" id="correccionSuelo" name="correccionSuelo">
+            <br><br>
+    
+            <label for="labranza">Labranza</label>
+            <input type="checkbox" id="labranza" name="labranza">
+            <br><br>
+    
+            <label for="delimitacionParcela">Delimitación de la Parcela</label><br>
+            <input id="delimitacionParcela" type="number" name="delimitacionParcela" placeholder="Ingrese el tamaño de la parcela">
+            <br><br>
+    
+       
+            <button type="button" id="guardar" name="guardar">Guardar</button><br><br>   
+            
+        </form>
+    </section>
+    
+</body>
+</html>
